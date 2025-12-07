@@ -1,7 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/home.css";
-import image from "../assets/image.png";
+import australiaImage from "../assets/australia.png";
+import canadaImage from "../assets/canada.png";
+import ukImage from "../assets/uk.png";
+import usaImage from "../assets/usa.png";
+import who1 from "../assets/who1.png";
 
 const stats = [
   { value: "10+", label: "Years Experience" },
@@ -70,7 +74,7 @@ function Home() {
         <div className="who-card">
           <div className="who-image">
             <img
-              src={image}
+              src={who1}
               alt="Family consulting advisor"
             />
           </div>
@@ -135,22 +139,22 @@ function Home() {
             {
               label: "Australia",
               image:
-                "https://images.unsplash.com/photo-1473951574080-01fe45ec8643?auto=format&fit=crop&w=1200&q=80",
+                australiaImage
             },
             {
               label: "Canada",
               image:
-                "https://images.unsplash.com/photo-1472457974886-0ebcd59440cc?auto=format&fit=crop&w=1200&q=80",
+                canadaImage
             },
             {
               label: "UK",
               image:
-                "https://images.unsplash.com/photo-1431274172761-fca41d930114?auto=format&fit=crop&w=1200&q=80",
+                ukImage
             },
             {
               label: "USA",
               image:
-                "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+                usaImage
             },
           ].map((destination) => (
             <article className="destination-card" key={destination.label}>

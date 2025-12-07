@@ -80,13 +80,13 @@ const destinations = [
   {
     country: 'Canada',
     flag: '🇨🇦',
-    courses: ['Computer Science', 'Business', 'Healthcare', 'Engineering'],
+    courses: ['Business', 'Healthcare', 'Engineering','IT'],
     desc: 'Immigration-friendly policies, high quality of life, diverse culture'
   },
   {
     country: 'United Kingdom',
     flag: '🇬🇧',
-    courses: ['Finance', 'Law', 'Medicine', 'Arts', 'Engineering'],
+    courses: ['Finance', 'Law', 'Medicine','Engineering'],
     desc: 'Prestigious institutions, rich heritage, gateway to Europe'
   },
   {

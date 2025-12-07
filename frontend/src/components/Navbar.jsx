@@ -20,28 +20,6 @@ const Navbar = () => {
 
   return (
     <>
-      {/* <div className="navbar-top-bar"> */}
-        {/* <div className="navbar-top-content">
-          <div className="navbar-contact-group">
-            <div className="navbar-contact-item">
-              <Phone size={14} />
-              <span>+91-11-XXXX-XXXX</span>
-            </div>
-            <div className="navbar-contact-item">
-              <Mail size={14} />
-              <span>info@scholarsabroad.com</span>
-            </div>
-            <div className="navbar-contact-item">
-              <MapPin size={14} />
-              <span>New Delhi, India</span>
-            </div>
-          </div>
-          <div className="navbar-trusted">
-            Trusted Immigration & Education Consultants
-          </div>
-        </div>
-      </div> */}
-
       {/* Main Navigation */}
       <nav className="navbar-main">
         <div className="navbar-main-content">
@@ -96,7 +74,7 @@ const Navbar = () => {
                 </Link>
               ))}
               <div className="navbar-mobile-btn-hero">
-                <button className="navbar-btn-hero navbar-btn-hero-mobile" onClick={handleBookConsultation}>Book Consultation</button>
+                <button className="navbar-btn-hero navbar-btn-hero-mobile">Book Consultation</button>
               </div>
             </div>
           </div>
