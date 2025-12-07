@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Install npm packages for Navbar",
+			"command": "npm install react-router-dom lucide-react",
+			"group": "build",
+			"isBackground": false
+		}
+	]
+}

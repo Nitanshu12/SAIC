@@ -1,0 +1,208 @@
+/* 
+.navbar-top-bar {
+  background: linear-gradient(90deg, #4f46e5 0%, #6366f1 100%);
+  color: #fff; 
+  padding: 0.5rem 1rem; 
+  display: none;
+}
+@media (min-width: 1024px) {
+  .navbar-top-bar {
+    display: block;
+  }
+}
+
+.navbar-top-content {
+  max-width: 80rem; 
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem; 
+}
+
+.navbar-contact-group {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem; 
+}
+
+.navbar-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; 
+}
+
+.navbar-trusted {
+  font-size: 0.75rem; /* text-xs */
+  /* opacity: 0.9; */
+/* } */
+
+.navbar-main {
+  background: rgba(255,255,255,0.95); /* bg-background/95 */
+  backdrop-filter: blur(8px); /* backdrop-blur-md */
+  border-bottom: 1px solid #e5e7eb; /* border-b border-border */
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.04); 
+  position: fixed;/* shadow-card */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.04);
+}
+
+.navbar-main-content {
+  max-width: 80rem; /* max-w-7xl */
+  margin: 0 auto;
+  padding: 0 1rem; /* px-4 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem; /* h-16 */
+}
+
+@media (min-width: 640px) {
+  .navbar-main-content {
+    padding-left: 1.5rem; /* sm:px-6 */
+    padding-right: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .navbar-main-content {
+    padding-left: 2rem; /* lg:px-8 */
+    padding-right: 2rem;
+  }
+}
+
+.navbar-logo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem; /* space-x-3 */
+  text-decoration: none;
+}
+
+.navbar-logo-img {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  display: block;
+}
+
+.navbar-logo-text {
+  color: #fff; /* text-primary-foreground */
+  font-weight: bold;
+  font-size: 1.125rem; /* text-lg */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.125rem; /* text-lg */
+  color: #111827; /* text-foreground */
+}
+
+.navbar-brand-desc {
+  font-size: 0.75rem; /* text-xs */
+  color: #6b7280; /* text-muted-foreground */
+}
+
+.navbar-desktop-nav {
+  display: none;
+}
+@media (min-width: 768px) {
+  .navbar-desktop-nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem; /* space-x-8 */
+  }
+}
+
+.navbar-link {
+  font-size: 0.875rem; /* text-sm */
+  font-weight: 700;
+  transition: color 0.2s;
+  color: #6b7280; /* text-muted-foreground */
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  font-family: 'ui sans-serif';
+}
+.navbar-link:hover {
+  color: #1c4fd4; /* hover:text-primary */
+}
+.navbar-link.active {
+  color: #1c4fd4; /* text-primary */
+  border-bottom: 2px solid #1c4fd4; /* border-primary */
+}
+
+.navbar-btn-hero {
+  background: #1c4fd4;
+  color: #fff;
+  border: none;
+  border-radius: 0.375rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.navbar-btn-hero:hover {
+  background: #6366f1;
+}
+
+.navbar-btn-ghost {
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.navbar-mobile-menu-btn {
+  display: block;
+}
+@media (min-width: 768px) {
+  .navbar-mobile-menu-btn {
+    display: none;
+  }
+}
+
+.navbar-mobile-menu {
+  display: block;
+  padding: 1rem 0;
+  border-top: 1px solid #e5e7eb;
+  background: rgba(255,255,255,0.95);
+}
+@media (min-width: 768px) {
+  .navbar-mobile-menu {
+    display: none;
+  }
+}
+
+.navbar-mobile-link {
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  color: #6b7280;
+  background: none;
+  border: none;
+  text-align: left;
+  transition: color 0.2s, background 0.2s;
+  text-decoration: none;
+}
+.navbar-mobile-link.active {
+  color: #4f46e5;
+  background: #eef2ff;
+}
+.navbar-mobile-link:hover {
+  color: #4f46e5;
+}
+
+.navbar-mobile-btn-hero {
+  width: 100%;
+  margin-top: 0.5rem;
+}
