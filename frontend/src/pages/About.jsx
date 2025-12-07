@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Target, CheckCircle } from 'lucide-react';
 import '../styles/about.css';
 
@@ -37,6 +38,8 @@ const australiaHighlights = [
   ];
 
 const About = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="about-page">
       {/* Banner Section */}
@@ -72,8 +75,8 @@ const About = () => {
               </p> */}
             </div>
             <div className="story-buttons">
-              <button className="story-btn-primary">Get Started Today</button>
-              <button className="story-btn-secondary">Learn More</button>
+              <button className="story-btn-primary" onClick={() => navigate('/contact')}>Get Started Today</button>
+              <button className="story-btn-secondary" onClick={() => navigate('/services')}>Learn More</button>
             </div>
           </div>
 

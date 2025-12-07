@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "../styles/home.css";
 import image from "../assets/image.png";
 
@@ -36,6 +37,8 @@ const australiaHighlights = [
 ];
 
 function Home() {
+  const navigate = useNavigate();
+
   return (
     <main className="home-page">
       <section className="hero-section">
@@ -48,8 +51,8 @@ function Home() {
           </p>
 
           <div className="hero-actions">
-            <button className="primary-btn">Book a Consultation</button>
-            <button className="secondary-btn">Explore Programs</button>
+            <button className="primary-btn" onClick={() => navigate('/contact')}>Book a Consultation</button>
+            <button className="secondary-btn" onClick={() => navigate('/services')}>Explore Programs</button>
           </div>
 
           <div className="hero-stats">
@@ -81,7 +84,7 @@ function Home() {
               counseling, seamless application and visa support, and settlement
               planning to ensure a confident transition into your new chapter.
             </p>
-            <button className="link-btn">
+            <button className="link-btn" onClick={() => navigate('/about')}>
               Learn More <span aria-hidden="true">→</span>
             </button>
           </div>

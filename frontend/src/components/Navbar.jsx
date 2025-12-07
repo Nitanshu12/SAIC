@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Menu, X, Phone, Mail, MapPin } from "lucide-react";
 import '../styles/navbar.css';
-import logoImage from '../assets/SAIC Logo.png';
+import logoImage from '../assets/Saic-logo2.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,6 +16,7 @@ const Navbar = () => {
   ];
 
   const isActive = (path) => location.pathname === path;
+  const navigate = useNavigate();
 
   return (
     <>
@@ -47,10 +48,10 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="navbar-logo-link">
               <img src={logoImage} alt="SAIC Logo" className="navbar-logo-img" />
-            <div>
+            {/* <div>
               <div className="navbar-brand">Scholars Abroad</div>
               <div className="navbar-brand-desc">Immigration Consultants</div>
-            </div>
+            </div> */}
           </Link>
 
           {/* Desktop Navigation */}
@@ -66,7 +67,7 @@ const Navbar = () => {
             ))}
           </div>
           <div>
-          <button className="navbar-btn-hero">Book Consultation</button>
+          <button className="navbar-btn-hero" onClick={() => navigate('/contact')}>Book Consultation</button>
           </div>
 
           {/* Mobile menu button */}
@@ -95,7 +96,7 @@ const Navbar = () => {
                 </Link>
               ))}
               <div className="navbar-mobile-btn-hero">
-                <button className="navbar-btn-hero navbar-btn-hero-mobile">Book Consultation</button>
+                <button className="navbar-btn-hero navbar-btn-hero-mobile" onClick={handleBookConsultation}>Book Consultation</button>
               </div>
             </div>
           </div>
