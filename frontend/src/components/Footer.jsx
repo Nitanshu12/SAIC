@@ -99,11 +99,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      {/* Help Button */}
-      <button className="footer-help-button" aria-label="Help">
+      {/* <button className="footer-help-button" aria-label="Help">
         <HelpCircle size={24} />
-      </button>
+      </button> */}
     </footer>
   );
 };
