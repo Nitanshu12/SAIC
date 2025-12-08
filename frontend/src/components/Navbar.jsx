@@ -44,8 +44,8 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
-          <div>
-          <button className="navbar-btn-hero" onClick={() => navigate('/contact')}>Book Consultation</button>
+          <div className="navbar-desktop-btn">
+            <button className="navbar-btn-hero" onClick={() => navigate('/contact')}>Book Consultation</button>
           </div>
 
           {/* Mobile menu button */}
@@ -62,7 +62,7 @@ const Navbar = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="navbar-mobile-menu">
-            <div className="flex flex-col space-y-4">
+            <div className="navbar-mobile-menu-content">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
@@ -73,9 +73,15 @@ const Navbar = () => {
                   {link.label}
                 </Link>
               ))}
-              <div className="navbar-mobile-btn-hero">
-                <button className="navbar-btn-hero navbar-btn-hero-mobile">Book Consultation</button>
-              </div>
+              <button 
+                className="navbar-btn-hero navbar-btn-hero-mobile"
+                onClick={() => {
+                  navigate('/contact');
+                  setIsMenuOpen(false);
+                }}
+              >
+                Book Consultation
+              </button>
             </div>
           </div>
         )}
