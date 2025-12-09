@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Mail, Facebook, Instagram, Linkedin, Twitter, HelpCircle } from 'lucide-react';
 import '../styles/footer.css';
+import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+  const Navigate = useNavigate();
   return (
     <footer className="footer">
       {/* CTA Section */}
@@ -12,7 +14,7 @@ const Footer = () => {
           <p className="footer-cta-description">
             Don't wait to take the next step in your academic and professional life. Connect with our expert counsellors today.
           </p>
-          <button className="footer-cta-button">Book Appointment Now</button>
+          <button className="footer-cta-button" onClick={()=> Navigate('/contact')}>Book Appointment Now</button>
         </div>
       </div>
 

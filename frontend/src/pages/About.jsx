@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Target, CheckCircle } from 'lucide-react';
 import '../styles/about.css';
+import Founder from '../assets/Founder.jpeg';
 
 const australiaHighlights = [
     {
@@ -102,7 +103,7 @@ const About = () => {
               <div className="director-image-wrapper">
                 {/* Replace this with actual director image */}
                 <img 
-                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop&crop=face" 
+                  src={Founder} 
                   alt="Sakshi Lamba - Director" 
                   className="director-image"
                 />
