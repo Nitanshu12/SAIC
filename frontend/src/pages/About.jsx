@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Target, CheckCircle } from 'lucide-react';
 import '../styles/about.css';
-import Founder from '../assets/Founder.jpeg';
+import Founder from '../assets/Founders1.jpeg';
 
 const australiaHighlights = [
     {
@@ -111,6 +111,7 @@ const About = () => {
               <div className="director-title-group">
                 <h2 className="director-title">Director's Message</h2>
                 <p className="director-name">Sakshi Lamba</p>
+                <p className="director-experience">18+ years in Australia destination</p>
               </div>
             </div>
             <blockquote className="director-quote">

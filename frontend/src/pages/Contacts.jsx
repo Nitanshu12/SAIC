@@ -131,7 +131,7 @@ export default function Contacts() {
                                     <div className="contact-info-content">
                                         <h3>Office Address</h3>
                                         <p>Connaught Place</p>
-                                        <p>New Delhi - 110001</p>
+                                        <p>West Patel Nagar New Delhi - 110008</p>
                                         <p>India</p>
                                     </div>
                                 </div>
@@ -139,10 +139,8 @@ export default function Contacts() {
                                 <div className="contact-info-card">
                                     <Phone size={24} color="#2563eb"/>
                                     <div className="contact-info-content">
-                                        <h3>Phone Numbers</h3>
-                                        <p>+91-11-XXXX-XXXX</p>
-                                        <p>+91-98XXX-XXXXX</p>
-                                        <p>Toll Free: 1800-XXX-XXXX</p>
+                                        <h3>Phone Number</h3>
+                                        <p>+91-9999759589</p>
                                     </div>
                                 </div>
 
@@ -150,9 +148,7 @@ export default function Contacts() {
                                     <Mail size={24} color="#2563eb"/>
                                     <div className="contact-info-content">
                                         <h3>Email Addresses</h3>
-                                        <p>info@scholarsabroad.com</p>
-                                        <p>admissions@scholarsabroad.com</p>
-                                        <p>support@scholarsabroad.com</p>
+                                        <p>internationalapplication16@gmail.com</p>
                                     </div>
                                 </div>
 
@@ -160,9 +156,7 @@ export default function Contacts() {
                                         <Clock size={24} />
                                     <div className="contact-info-content">
                                         <h3>Office Hours</h3>
-                                        <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-                                        <p>Saturday: 10:00 AM - 4:00 PM</p>
-                                        <p>Sunday: Closed</p>
+                                        <p>Monday - Sunday: 10:00 AM - 6:00 PM</p>
                                     </div>
                                 </div>
                             </div>
