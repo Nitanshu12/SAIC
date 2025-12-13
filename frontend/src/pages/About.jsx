@@ -111,12 +111,10 @@ const About = () => {
               <div className="director-title-group">
                 <h2 className="director-title">Director's Message</h2>
                 <p className="director-name">Sakshi Lamba</p>
-                <p className="director-experience">18+ years in Australia destination</p>
               </div>
             </div>
             <blockquote className="director-quote">
-              "Welcome to Scholars Abroad Immigration Consultant, your trusted partner in the pursuit of study abroad opportunities. As the Director of Scholars Abroad Immigration Consultant, I am honoured to address you and share our vision and commitment to helping students like you realize their dreams of studying abroad.
-I invite you to explore our website, where you will find valuable resources, and information about our services.
+              "Welcome to Scholars Abroad Immigration Consultant, your trusted partner in the pursuit of study abroad opportunities. As the Director, I am honoured to share our commitment to helping students achieve their dreams of studying abroad, backed by over 18 years of experience in Australia, guiding students toward successful careers and bright futures. I invite you to explore our website to learn more about our services.
 "
             </blockquote>
             {/* <p className="director-text">
