@@ -54,7 +54,7 @@ const Footer = () => {
                 <Link to="/services">Services</Link>
               </li>
               <li>
-                <Link to="/testimonials">Testimonials</Link>
+                <Link to="/">Home</Link>
               </li>
               <li>
                 <Link to="/contact">Contact</Link>
@@ -67,16 +67,16 @@ const Footer = () => {
             <h3 className="footer-column-heading">Destinations</h3>
             <ul className="footer-links">
               <li>
-                <Link to="/destinations/australia">Australia</Link>
+                <Link to="/contact">Australia</Link>
               </li>
               <li>
-                <Link to="/destinations/canada">Canada</Link>
+                <Link to="/contact">Canada</Link>
               </li>
               <li>
-                <Link to="/destinations/uk">United Kingdom</Link>
+                <Link to="/contact">United Kingdom</Link>
               </li>
               <li>
-                <Link to="/destinations/usa">United States</Link>
+                <Link to="/contact">United States</Link>
               </li>
             </ul>
           </div>
@@ -87,15 +87,15 @@ const Footer = () => {
             <ul className="footer-contact">
               <li className="footer-contact-item">
                 <MapPin size={18} />
-                <span>123 Scholar Lane, New Delhi, India</span>
+                <span>Connaught Place, West Patel Nagar New Delhi - 110008, India</span>
               </li>
               <li className="footer-contact-item">
                 <Phone size={18} />
-                <span>+91 123 456 7890</span>
+                <span>+91-9999759589</span>
               </li>
               <li className="footer-contact-item">
                 <Mail size={18} />
-                <span>info@scholarsabroad.com</span>
+                <span>internationalapplication16@gmail.com</span>
               </li>
             </ul>
           </div>
