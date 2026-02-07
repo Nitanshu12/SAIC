@@ -87,7 +87,7 @@ const Footer = () => {
             <ul className="footer-contact">
               <li className="footer-contact-item">
                 <MapPin size={18} />
-                <span>Site 11 plot 2 west patel Nagar New Delhi - 110008</span>
+                <span>Site 11, Plot 2, West Patel Nagar, New Delhi - 110008</span>
               </li>
               <li className="footer-contact-item">
                 <Phone size={18} />

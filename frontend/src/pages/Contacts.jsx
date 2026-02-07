@@ -130,7 +130,7 @@ export default function Contacts() {
                                     <MapPin size={24} color="#2563eb"/>
                                     <div className="contact-info-content">
                                         <h3>Office Address</h3>
-                                        <p>Site 11 plot 2 west patel Nagar New Delhi - 110008</p>
+                                        <p>Site 11, Plot 2, West Patel Nagar, New Delhi - 110008</p>
                                         <p>India</p>
                                     </div>
                                 </div>
