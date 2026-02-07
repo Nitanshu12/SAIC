@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Target, CheckCircle } from 'lucide-react';
 import '../styles/about.css';
-import Founder from '../assets/Founders1.jpeg';
+import Founder from '../assets/Founders2.jpeg';
 
 const australiaHighlights = [
     {

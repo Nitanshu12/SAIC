@@ -130,8 +130,7 @@ export default function Contacts() {
                                     <MapPin size={24} color="#2563eb"/>
                                     <div className="contact-info-content">
                                         <h3>Office Address</h3>
-                                        <p>Connaught Place</p>
-                                        <p>West Patel Nagar New Delhi - 110008</p>
+                                        <p>Site 11 plot 2 west patel Nagar New Delhi - 110008</p>
                                         <p>India</p>
                                     </div>
                                 </div>
@@ -156,7 +155,7 @@ export default function Contacts() {
                                         <Clock size={24} />
                                     <div className="contact-info-content">
                                         <h3>Office Hours</h3>
-                                        <p>Monday - Sunday: 10:00 AM - 6:00 PM</p>
+                                        <p>Monday - Saturday: 10:00 AM - 6:00 PM</p>
                                     </div>
                                 </div>
                             </div>
